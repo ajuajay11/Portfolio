@@ -14,10 +14,10 @@ export default function App({ Component, pageProps }) {
        <AosClient/>
       <main className='container-fluid px-4'>
          <div className='row mt-5' style={{ height: '92vh' }}>
-            <div className='col-3 '>
+            <div className='col-12 col-lg-3 '>
               <Header/>
             </div>
-            <div className='col-9 bg-secondary'>
+            <div className='col-12 col-lg-9 bg-secondary'>
               <Component {...pageProps} />
             </div>
          </div>

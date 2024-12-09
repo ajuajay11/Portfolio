@@ -4,6 +4,7 @@ import localFont from "next/font/local";
 import styles from "@/styles/Home.module.css";
 import Layout from "./layout/layout"
 import Link from 'next/link'
+import Dashboard from "./components/dashboard"
 // const geistSans = localFont({
 //   src: "./fonts/GeistVF.woff",
 //   variable: "--font-geist-sans",
@@ -25,7 +26,7 @@ export default function Home() {
          <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout>
-        <Link href="/dashboard">to dasboard</Link>
+          <Dashboard/>
       </Layout>
     </>
   );

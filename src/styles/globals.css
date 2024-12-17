@@ -1,11 +1,11 @@
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #3a3a3ad0;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #252525;
     --foreground: #ededed;
   }
 }
@@ -41,3 +41,20 @@ a {
   }
 }
 
+.object_cover{
+  object-fit: cover;
+}
+.object_contain{
+  object-fit: contain;
+}
+
+@media (min-width: 992px) {  /* Large screens start at 992px in Bootstrap */
+  .container {
+    max-width: 1300px !important;  /* Custom width for large screens */
+  }
+}
+
+.bg-dark{
+  background-color: rgb(29 28 34) !important;
+  color: #fff;
+}

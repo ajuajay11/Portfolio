@@ -12,7 +12,7 @@ export default function App({ Component, pageProps }) {
     <>
        <BootstrapClient/>
        <AosClient/>
-      <main className='container-fluid px-4'>
+      <main className='container'>
          <div className='row mt-5' style={{ height: '92vh' }}>
             <div className='col-12 col-lg-3 '>
               <Header/>

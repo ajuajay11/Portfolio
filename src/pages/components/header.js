@@ -2,7 +2,7 @@ import Image from "next/image";
 export default function Header() {
   return (
     <>
-    <div className="rounded-4 px-4 bg-danger card h-100">
+    <div className="rounded-4 px-4 bg-dark card h-100">
       <div className="card-header mt-4">
         <div className="d-flex justify-content-center">
           <Image src="/images/portfolio.jpg" alt="File Icon" className="rounded-circle" width={130} height={130} />
@@ -18,10 +18,10 @@ export default function Header() {
          <p className="fs-5 text-white">admin@demo.com</p>
        </div>
         <div className="social_media d-flex justify-content-center gap-2 mt-4">
-          <button className="btn border"><i class="bi bi-facebook"></i></button>
-          <button className="btn border"><i class="bi bi-twitter"></i></button>
-          <button className="btn border"><i class="bi bi-github"></i></button>
-          <button className="btn border"><i class="bi bi-linkedin"></i></button> 
+          <button className="btn border  text-white"><i class="bi bi-facebook"></i></button>
+          <button className="btn border  text-white"><i class="bi bi-twitter"></i></button>
+          <button className="btn border  text-white"><i class="bi bi-github"></i></button>
+          <button className="btn border  text-white"><i class="bi bi-linkedin"></i></button> 
         </div>
       </div>
       <div className="card-footer d-flex flex-column gap-3">

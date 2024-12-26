@@ -58,3 +58,6 @@ a {
   background-color: rgb(29 28 34) !important;
   color: #fff;
 }
+h1{
+  font-size: clamp(30px, 3vw, 40px);
+}

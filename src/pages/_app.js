@@ -17,7 +17,7 @@ export default function App({ Component, pageProps }) {
             <div className='col-12 col-lg-3 '>
               <Header/>
             </div>
-            <div className='col-12 col-lg-9 h-100'>
+            <div className='col-12 col-lg-9 h-100 mt-5 mt-md-0'>
               <Component {...pageProps} />
             </div>
          </div>

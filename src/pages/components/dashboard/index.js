@@ -9,7 +9,7 @@ export default function Dashboard() {
     <div style={{ height: "92vh", overflowX: "hidden", overflowY: "scroll" }}>
       <Intro />
       <div className="row">
-        <div className="col-4 d-flex flex-column gap-3">
+        <div className="col-12 col-md-4 d-flex flex-column gap-3">
           <div className="card bg-dark  shadow px-4 py-4">
             <h2>My Expertise</h2>
             <p>More Specialized</p>
@@ -17,7 +17,7 @@ export default function Dashboard() {
             {/* <Image src="/images/team.png" alt="File Icon" className="rounded" width={130} height={130} /> */}
           </div>
           <div className="card bg-dark ">
-            <Link href="/" className="d-flex justify-content-evenly py-3">
+            <Link href="/offers" className="d-flex justify-content-evenly py-3">
               <Image
                 src="/images/figma.png"
                 alt="File Icon"
@@ -58,7 +58,7 @@ export default function Dashboard() {
             </div>
           </div>
         </div>
-        <div className="col-8">
+        <div className="col-12 col-md-8">
           <div className="row m-0 g-4">
             <div className="col-12 card bg-dark  d-flex flex-column py-4 m-0">
               <div className="d-flex justify-content-evenly align-items-center">
@@ -99,7 +99,7 @@ export default function Dashboard() {
                   </div>
                 </div>
                 <div className="col-6 card bg-dark">
-                  <div className= " rounded pe-3 py-5">
+                  <div className=" rounded pe-3 py-5">
                     lets work
                     <small className="d-block">Contact</small>
                   </div>
